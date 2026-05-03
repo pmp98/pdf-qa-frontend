@@ -1,9 +1,9 @@
 import { useCallback, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-/** Set `VITE_DEMO_YOUTUBE_VIDEO_ID` in `.env` to your video ID, or replace the fallback. */
+/** Set `VITE_DEMO_YOUTUBE_VIDEO_ID` in `.env` to override the embedded demo. */
 const DEMO_YOUTUBE_VIDEO_ID =
-  import.meta.env.VITE_DEMO_YOUTUBE_VIDEO_ID ?? "M7lc1UVf-VE";
+  import.meta.env.VITE_DEMO_YOUTUBE_VIDEO_ID ?? "DcJyKBO2GeI";
 
 function SearchIcon(props) {
   return (
